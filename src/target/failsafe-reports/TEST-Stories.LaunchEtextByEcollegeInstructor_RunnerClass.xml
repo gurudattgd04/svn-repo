@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="1.349" errors="0" skipped="0" tests="10" name="Stories.LaunchEtextByEcollegeInstructor_RunnerClass">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre7\bin"/>
+    <property name="java.vm.version" value="23.25-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Pegasus Autamation\Pegasus"/>
+    <property name="java.runtime.version" value="1.7.0_25-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre7\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="E:\Pegasus Autamation\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3420872736829537991.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Users\user\documents\visual studio 2010\Projects\ClassLibrary2\packages\SpecFlow.1.9.0;C:\Users\user\documents\visual studio 2010\Projects\ClassLibrary2\packages\NUnit.2.6.2;C:\Program Files\Java\jdk1.7.0_25\bin;G:\Softwares\Automation Files\casperjs-1.0.2\casperjs-1.0.2\batchbin;G:\Softwares\Automation Files\phantomjs-1.8.2-windows\phantomjs-1.8.2-windows;F:\Program Files\sikuli\libs;C:\Program Files\Java\jre6\\bin;C:\Program Files\Sikuli X\libs;C:\Program Files\Java\jre6\\bin;G:\Softwares\IEDriverServer_Win32_2.28.0;C:\Program Files\Maven\bin;C:\Program Files\Common Files\Ahead\Lib\;C:\Program Files\Common Files\Ahead\Lib\;C:\Program Files\Common Files\Ahead\Lib\;G:\Softwares\eclipse-standard-kepler-R-win32\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="user"/>
+    <property name="java.class.path" value="/G:/Softwares/eclipse-standard-kepler-R-win32/eclipse/configuration/org.eclipse.osgi/bundles/267/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jre7"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_25"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\Pegasus Autamation\Pegasus\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="/G:/Softwares/eclipse-standard-kepler-R-win32/eclipse/configuration/org.eclipse.osgi/bundles/267/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.005" classname="Scenario: To Add eTextLink in course material tab by ECollege Teacher" name="Given instructor is logged into application"/>
+  <testcase time="0" classname="Scenario: To Add eTextLink in course material tab by ECollege Teacher" name="When user access course"/>
+  <testcase time="0.001" classname="Scenario: To Add eTextLink in course material tab by ECollege Teacher" name="Then Course Home page should display"/>
+  <testcase time="0" classname="Scenario: To Add eTextLink in course material tab by ECollege Teacher" name="When I navigate to the Course Materials tab"/>
+  <testcase time="0.001" classname="Scenario: To Add eTextLink in course material tab by ECollege Teacher" name="Then I should be on the Course Materials page"/>
+  <testcase time="0.004" classname="Scenario: To Add eTextLink in course material tab by ECollege Teacher" name="When I click on the Add Course Materials option"/>
+  <testcase time="0" classname="Scenario: To Add eTextLink in course material tab by ECollege Teacher" name="And I click on the Add eText Link activity type"/>
+  <testcase time="0" classname="Scenario: To Add eTextLink in course material tab by ECollege Teacher" name="And I create eText link"/>
+  <testcase time="0" classname="Scenario: To Add eTextLink in course material tab by ECollege Teacher" name="Then I should see the successfull message eText link saved successfully"/>
+  <testcase time="1.338" classname="Scenario: To Add eTextLink in course material tab by ECollege Teacher" name="Scenario: To Add eTextLink in course material tab by ECollege Teacher"/>
+</testsuite>
