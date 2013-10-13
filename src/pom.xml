@@ -39,7 +39,7 @@
 			</dependencies>
 			<configuration>
 			  		<includes>
-						<include>**/LaunchEtextByEcollegeInstructor_RunnerClass.java</include>
+						<include>**/Set_etext_preferences_RunnerClass.java</include>
 					</includes>
 			</configuration>
 			<executions>

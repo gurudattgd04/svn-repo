@@ -9,6 +9,7 @@ import PegasusPages.ActionDriver;
 import PegasusPages.HEDGlobalHome;
 import PegasusPages.PreferencesMainUX;
 import PegasusPages.frmlogin;
+import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -62,16 +63,26 @@ public void subpreferenceaccess()
 @When("^I set the eText in enable state$")
 public void etextprefset()
 {
+	PreferencesMainUX toolselection = new PreferencesMainUX(iedriver);
+	toolselection.ToolSelection();
+	
 	
 }
 
 @Then("^I should see the successfull message Preferences updated successfully$")
 public void messagecheck()
 {
+	PreferencesMainUX savePreference = new PreferencesMainUX(iedriver);
+	savePreference.savepreferences();
 	
 }
 
 
-
+@After()
+public void driverquit()
+{
+iedriver.close();
+iedriver.quit();
+}
 
 }

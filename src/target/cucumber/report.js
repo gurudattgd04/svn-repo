@@ -59,49 +59,49 @@ formatter.match({
   "location": "Set_etext_preferences_StepClass.homepageaccess()"
 });
 formatter.result({
-  "duration": 13570935645,
+  "duration": 15415163544,
   "status": "passed"
 });
 formatter.match({
   "location": "Set_etext_preferences_StepClass.courseaccess()"
 });
 formatter.result({
-  "duration": 6645458438,
+  "duration": 8275828839,
   "status": "passed"
 });
 formatter.match({
   "location": "Set_etext_preferences_StepClass.preferencetabaccess()"
 });
 formatter.result({
-  "duration": 5430705551,
+  "duration": 6293474514,
   "status": "passed"
 });
 formatter.match({
   "location": "Set_etext_preferences_StepClass.preferencepagevalidatior()"
 });
 formatter.result({
-  "duration": 20103263,
+  "duration": 99002528,
   "status": "passed"
 });
 formatter.match({
   "location": "Set_etext_preferences_StepClass.subpreferenceaccess()"
 });
 formatter.result({
-  "duration": 5120425813,
+  "duration": 5321202271,
   "status": "passed"
 });
 formatter.match({
   "location": "Set_etext_preferences_StepClass.etextprefset()"
 });
 formatter.result({
-  "duration": 33362,
+  "duration": 3441130326,
   "status": "passed"
 });
 formatter.match({
   "location": "Set_etext_preferences_StepClass.messagecheck()"
 });
 formatter.result({
-  "duration": 26519,
+  "duration": 553470835,
   "status": "passed"
 });
 });

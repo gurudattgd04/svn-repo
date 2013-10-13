@@ -110,11 +110,11 @@ public void SuccessMsg()
 }
 
 
-@After
+/*@After
 public void driverquit()
 {
 	iedriver.close();
 	iedriver.quit();
-}
+}*/
 
 }
