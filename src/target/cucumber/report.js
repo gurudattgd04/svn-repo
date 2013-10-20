@@ -1,107 +1,138 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Stories\\Set the etext preferences.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Stories\\Launch Etext By Ecollege Instructor.feature");
 formatter.feature({
-  "id": "set-etext-preferences",
-  "tags": [
-    {
-      "name": "@etextpref",
-      "line": 1
-    }
-  ],
+  "id": "launching-of-etext-by-teacher",
   "description": "",
-  "name": "Set etext preferences",
+  "name": "launching of etext by teacher",
   "keyword": "Feature",
-  "line": 2
+  "line": 1
 });
-formatter.scenario({
-  "id": "set-etext-preferences;set-the-etext-preference-in-work-space",
+formatter.background({
   "description": "",
-  "name": "Set the eText preference in Work Space",
-  "keyword": "Scenario",
-  "line": 4,
-  "type": "scenario"
+  "name": "",
+  "keyword": "Background",
+  "line": 3,
+  "type": "background"
 });
 formatter.step({
-  "name": "I am on the Global Home page",
+  "name": "instructor is logged into application",
   "keyword": "Given ",
+  "line": 4
+});
+formatter.step({
+  "name": "user access course",
+  "keyword": "When ",
   "line": 5
 });
 formatter.step({
-  "name": "I enter in the MySpanishLabMaster from the Global Home page as HedWsInstructor",
-  "keyword": "When ",
+  "name": "Course Home page should display",
+  "keyword": "Then ",
   "line": 6
 });
-formatter.step({
-  "name": "I navigate to the Preferences tab",
-  "keyword": "And ",
-  "line": 7
+formatter.match({
+  "location": "LaunchEtextByEcollegeInstructor_StepClass.instructorlogin()"
+});
+formatter.result({
+  "duration": 29272888606,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LaunchEtextByEcollegeInstructor_StepClass.courseaccess()"
+});
+formatter.result({
+  "duration": 27089109503,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LaunchEtextByEcollegeInstructor_StepClass.coursehomepage()"
+});
+formatter.result({
+  "duration": 50813333,
+  "status": "passed"
+});
+formatter.scenario({
+  "id": "launching-of-etext-by-teacher;to-add-etextlink-in-course-material-tab-by-ecollege-teacher",
+  "tags": [
+    {
+      "name": "@etext",
+      "line": 8
+    }
+  ],
+  "description": "",
+  "name": "To Add eTextLink in course material tab by ECollege Teacher",
+  "keyword": "Scenario",
+  "line": 9,
+  "type": "scenario"
 });
 formatter.step({
-  "name": "I should be on the Preferences page",
-  "keyword": "Then ",
-  "line": 8
-});
-formatter.step({
-  "name": "I select LTI Tools sub tab",
+  "name": "I navigate to the Course Materials tab",
   "keyword": "When ",
-  "line": 9
-});
-formatter.step({
-  "name": "I set the eText in enable state",
-  "keyword": "And ",
   "line": 10
 });
 formatter.step({
-  "name": "I should see the successfull message Preferences updated successfully",
+  "name": "I should be on the Course Materials page",
   "keyword": "Then ",
   "line": 11
 });
+formatter.step({
+  "name": "I click on the Add Course Materials option",
+  "keyword": "When ",
+  "line": 12
+});
+formatter.step({
+  "name": "I click on the Add eText Link activity type",
+  "keyword": "And ",
+  "line": 13
+});
+formatter.step({
+  "name": "I create eText link",
+  "keyword": "And ",
+  "line": 14
+});
+formatter.step({
+  "name": "I should see the successfull message eText link saved successfully",
+  "keyword": "Then ",
+  "line": 15
+});
 formatter.match({
-  "location": "Set_etext_preferences_StepClass.homepageaccess()"
+  "location": "LaunchEtextByEcollegeInstructor_StepClass.coursematerialtabaccess()"
 });
 formatter.result({
-  "duration": 15415163544,
+  "duration": 57403593808,
   "status": "passed"
 });
 formatter.match({
-  "location": "Set_etext_preferences_StepClass.courseaccess()"
+  "location": "LaunchEtextByEcollegeInstructor_StepClass.coursematerialspageassert()"
 });
 formatter.result({
-  "duration": 8275828839,
+  "duration": 328549003,
   "status": "passed"
 });
 formatter.match({
-  "location": "Set_etext_preferences_StepClass.preferencetabaccess()"
+  "location": "LaunchEtextByEcollegeInstructor_StepClass.addcontent()"
 });
 formatter.result({
-  "duration": 6293474514,
+  "duration": 1471807726,
   "status": "passed"
 });
 formatter.match({
-  "location": "Set_etext_preferences_StepClass.preferencepagevalidatior()"
+  "location": "LaunchEtextByEcollegeInstructor_StepClass.AddEtextLink()"
 });
 formatter.result({
-  "duration": 99002528,
+  "duration": 14674733415,
   "status": "passed"
 });
 formatter.match({
-  "location": "Set_etext_preferences_StepClass.subpreferenceaccess()"
+  "location": "LaunchEtextByEcollegeInstructor_StepClass.EtextCreation()"
 });
 formatter.result({
-  "duration": 5321202271,
+  "duration": 30945953009,
   "status": "passed"
 });
 formatter.match({
-  "location": "Set_etext_preferences_StepClass.etextprefset()"
+  "location": "LaunchEtextByEcollegeInstructor_StepClass.SuccessMsg()"
 });
 formatter.result({
-  "duration": 3441130326,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Set_etext_preferences_StepClass.messagecheck()"
-});
-formatter.result({
-  "duration": 553470835,
+  "duration": 16144577422,
   "status": "passed"
 });
 });
