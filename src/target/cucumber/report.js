@@ -1,138 +1,119 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Stories\\Launch Etext By Ecollege Instructor.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Stories\\CanvasIntegration.feature");
 formatter.feature({
-  "id": "launching-of-etext-by-teacher",
-  "description": "",
-  "name": "launching of etext by teacher",
-  "keyword": "Feature",
-  "line": 1
-});
-formatter.background({
-  "description": "",
-  "name": "",
-  "keyword": "Background",
-  "line": 3,
-  "type": "background"
-});
-formatter.step({
-  "name": "instructor is logged into application",
-  "keyword": "Given ",
-  "line": 4
-});
-formatter.step({
-  "name": "user access course",
-  "keyword": "When ",
-  "line": 5
-});
-formatter.step({
-  "name": "Course Home page should display",
-  "keyword": "Then ",
-  "line": 6
-});
-formatter.match({
-  "location": "LaunchEtextByEcollegeInstructor_StepClass.instructorlogin()"
-});
-formatter.result({
-  "duration": 29272888606,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LaunchEtextByEcollegeInstructor_StepClass.courseaccess()"
-});
-formatter.result({
-  "duration": 27089109503,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LaunchEtextByEcollegeInstructor_StepClass.coursehomepage()"
-});
-formatter.result({
-  "duration": 50813333,
-  "status": "passed"
-});
-formatter.scenario({
-  "id": "launching-of-etext-by-teacher;to-add-etextlink-in-course-material-tab-by-ecollege-teacher",
+  "id": "canvas-integration-with-pegasus",
   "tags": [
     {
-      "name": "@etext",
-      "line": 8
+      "name": "@canvas",
+      "line": 1
     }
   ],
   "description": "",
-  "name": "To Add eTextLink in course material tab by ECollege Teacher",
+  "name": "Canvas integration with pegasus",
+  "keyword": "Feature",
+  "line": 2
+});
+formatter.scenario({
+  "id": "canvas-integration-with-pegasus;upon-canvas-instructor-logs-in-he-should-see-the-home-page",
+  "description": "",
+  "name": "Upon canvas instructor logs in he should see the home page",
   "keyword": "Scenario",
-  "line": 9,
+  "line": 4,
   "type": "scenario"
 });
 formatter.step({
-  "name": "I navigate to the Course Materials tab",
+  "name": "canvas user enter username and password",
+  "keyword": "Given ",
+  "line": 5
+});
+formatter.step({
+  "name": "clicks on sign in button",
   "keyword": "When ",
+  "line": 6
+});
+formatter.step({
+  "name": "user should see home page",
+  "keyword": "Then ",
+  "line": 7
+});
+formatter.step({
+  "name": "user access the course",
+  "keyword": "When ",
+  "line": 8
+});
+formatter.step({
+  "name": "Click on Settings Clicks",
+  "keyword": "And ",
+  "line": 9
+});
+formatter.step({
+  "name": "Access Apps link",
+  "keyword": "And ",
   "line": 10
 });
 formatter.step({
-  "name": "I should be on the Course Materials page",
-  "keyword": "Then ",
+  "name": "instructor click on View installed apps button",
+  "keyword": "When ",
   "line": 11
 });
 formatter.step({
-  "name": "I click on the Add Course Materials option",
-  "keyword": "When ",
+  "name": "clicks on Add New App button",
+  "keyword": "And ",
   "line": 12
 });
-formatter.step({
-  "name": "I click on the Add eText Link activity type",
-  "keyword": "And ",
-  "line": 13
-});
-formatter.step({
-  "name": "I create eText link",
-  "keyword": "And ",
-  "line": 14
-});
-formatter.step({
-  "name": "I should see the successfull message eText link saved successfully",
-  "keyword": "Then ",
-  "line": 15
-});
 formatter.match({
-  "location": "LaunchEtextByEcollegeInstructor_StepClass.coursematerialtabaccess()"
+  "location": "CanvasIntegration_StepClass.userformfill()"
 });
 formatter.result({
-  "duration": 57403593808,
+  "duration": 13923157862,
   "status": "passed"
 });
 formatter.match({
-  "location": "LaunchEtextByEcollegeInstructor_StepClass.coursematerialspageassert()"
+  "location": "CanvasIntegration_StepClass.signin()"
 });
 formatter.result({
-  "duration": 328549003,
+  "duration": 3333887950,
   "status": "passed"
 });
 formatter.match({
-  "location": "LaunchEtextByEcollegeInstructor_StepClass.addcontent()"
+  "location": "CanvasIntegration_StepClass.homepage()"
 });
 formatter.result({
-  "duration": 1471807726,
+  "duration": 21118082,
   "status": "passed"
 });
 formatter.match({
-  "location": "LaunchEtextByEcollegeInstructor_StepClass.AddEtextLink()"
+  "location": "CanvasIntegration_StepClass.courseaccess()"
 });
 formatter.result({
-  "duration": 14674733415,
+  "duration": 8537152436,
   "status": "passed"
 });
 formatter.match({
-  "location": "LaunchEtextByEcollegeInstructor_StepClass.EtextCreation()"
+  "location": "CanvasIntegration_StepClass.settingsaccess()"
 });
 formatter.result({
-  "duration": 30945953009,
+  "duration": 7710526620,
   "status": "passed"
 });
 formatter.match({
-  "location": "LaunchEtextByEcollegeInstructor_StepClass.SuccessMsg()"
+  "location": "CanvasIntegration_StepClass.Appslink_access()"
 });
 formatter.result({
-  "duration": 16144577422,
+  "duration": 1245437774,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CanvasIntegration_StepClass.viewinstallappaccess()"
+});
+formatter.result({
+  "duration": 1407378433,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CanvasIntegration_StepClass.Addnewapp_access()"
+});
+formatter.result({
+  "duration": 10340241382,
   "status": "passed"
 });
 });

@@ -15,8 +15,11 @@ import org.xml.sax.SAXException;
 
 public class XMLReader {
 
-	String username, firstname, lastname,password, email;
+	String username, firstname, lastname,password, email,coursename;
 	Element elements;
+	String pegasusnode = "CSUserdetails";
+    String canvasnode = "canvasLogins";
+    int itemnum = 0;
 	private void XMLRead() {
 		// TODO Auto-generated method stub
 		
@@ -25,14 +28,10 @@ public class XMLReader {
 		try {
 			DocumentBuilder dBuilder =  DocumentBuilderFactory.newInstance().newDocumentBuilder();
 			Document doc = dBuilder.parse(filepath);
-		    NodeList nodelist = doc.getElementsByTagName("CSUserdetails");
+		    NodeList nodelist = doc.getElementsByTagName(canvasnode);
 		    Node node = nodelist.item(0);
 			elements = (Element) node;
-		    System.out.println(elements.getElementsByTagName("Firstname").item(0).getTextContent());
-		    
-		    
-		    
-		    
+		   // System.out.println(elements.getElementsByTagName("Firstname").item(itemnum).getTextContent());
 		}
 		
 		catch (ParserConfigurationException | SAXException | IOException e) 
@@ -45,36 +44,43 @@ public class XMLReader {
 		public String username()
 		{
 			XMLRead();	
-			username = elements.getElementsByTagName("Username").item(0).getTextContent();
+			username = elements.getElementsByTagName("username").item(itemnum).getTextContent();
 			return username;
 		}
 		
 		public String firstname()
 		{
 			XMLRead();
-			firstname = elements.getElementsByTagName("Firstname").item(0).getTextContent();
+			firstname = elements.getElementsByTagName("Firstname").item(itemnum).getTextContent();
 			return firstname;
 		}
 		
 		public String lastname()
 		{
 			XMLRead();
-			lastname = elements.getElementsByTagName("Lastname").item(0).getTextContent();
+			lastname = elements.getElementsByTagName("Lastname").item(itemnum).getTextContent();
 			return lastname;
 		}
 		
 		public String email()
 		{
 			XMLRead();
-			email = elements.getElementsByTagName("Email").item(0).getTextContent();
+			email = elements.getElementsByTagName("Email").item(itemnum).getTextContent();
 			return email;
 		}
 		
 		public String password()
 		{
 			XMLRead();
-			password = elements.getElementsByTagName("Password").item(0).getTextContent();
+			password = elements.getElementsByTagName("password").item(itemnum).getTextContent();
 			return password;
+		}
+		
+		public String Coursename()
+		{
+			XMLRead();
+			coursename = elements.getElementsByTagName("coursename").item(itemnum).getTextContent();
+			return coursename;
 		}
 	}
 

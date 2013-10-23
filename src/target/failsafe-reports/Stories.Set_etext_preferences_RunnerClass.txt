@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Stories.Set_etext_preferences_RunnerClass
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 3, Skipped: 6, Time elapsed: 26.787 sec <<< FAILURE!
-Given I am on the Global Home page(Scenario: Set the eText preference in Work Space)  Time elapsed: 0.024 sec  <<< ERROR!
+Tests run: 9, Failures: 0, Errors: 3, Skipped: 6, Time elapsed: 25.356 sec <<< FAILURE!
+Given I am on the Global Home page(Scenario: Set the eText preference in Work Space)  Time elapsed: 0.021 sec  <<< ERROR!
 org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.32.0', revision: '6c40c187d01409a5dc3b7f8251859150c8af0bcb', time: '2013-04-09 10:39:28'
 System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
@@ -72,7 +72,7 @@ Driver info: driver.version: InternetExplorerDriver
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:23827/status] to be available after 20005 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:41923/status] to be available after 20004 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:104)
 	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:163)
 	... 52 more
@@ -86,7 +86,7 @@ Caused by: java.util.concurrent.TimeoutException
 	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
 	... 54 more
 
-Scenario: Set the eText preference in Work Space  Time elapsed: 0.025 sec  <<< ERROR!
+Scenario: Set the eText preference in Work Space  Time elapsed: 0.023 sec  <<< ERROR!
 org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.32.0', revision: '6c40c187d01409a5dc3b7f8251859150c8af0bcb', time: '2013-04-09 10:39:28'
 System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
@@ -156,7 +156,7 @@ Driver info: driver.version: InternetExplorerDriver
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:23827/status] to be available after 20005 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:41923/status] to be available after 20004 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:104)
 	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:163)
 	... 52 more
@@ -170,7 +170,7 @@ Caused by: java.util.concurrent.TimeoutException
 	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
 	... 54 more
 
-Scenario: Set the eText preference in Work Space  Time elapsed: 0.149 sec  <<< ERROR!
+Scenario: Set the eText preference in Work Space  Time elapsed: 0.157 sec  <<< ERROR!
 java.lang.NullPointerException
 	at Stories.Set_etext_preferences_StepClass.driverquit(Set_etext_preferences_StepClass.java:84)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

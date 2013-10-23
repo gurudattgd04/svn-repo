@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="1.002" errors="3" skipped="6" tests="9" name="Stories.Set_etext_preferences_RunnerClass">
+<testsuite failures="0" time="1.039" errors="3" skipped="6" tests="9" name="Stories.Set_etext_preferences_RunnerClass">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre7\bin"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="E:\Pegasus Autamation\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4796684510601957893.tmp"/>
+    <property name="classworlds.conf" value="E:\Pegasus Autamation\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8443232511333850416.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Users\user\documents\visual studio 2010\Projects\ClassLibrary2\packages\SpecFlow.1.9.0;C:\Users\user\documents\visual studio 2010\Projects\ClassLibrary2\packages\NUnit.2.6.2;C:\Program Files\Java\jdk1.7.0_25\bin;G:\Softwares\Automation Files\casperjs-1.0.2\casperjs-1.0.2\batchbin;G:\Softwares\Automation Files\phantomjs-1.8.2-windows\phantomjs-1.8.2-windows;C:\Program Files\TortoiseSVN\bin;F:\Program Files\sikuli\libs;C:\Program Files\Java\jre6\\bin;C:\Program Files\Sikuli X\libs;C:\Program Files\Java\jre6\\bin;G:\Softwares\IEDriverServer_Win32_2.28.0;C:\Program Files\Maven\bin;C:\Program Files\Java\jdk1.7.0_25\bin;;G:\Softwares\eclipse-standard-kepler-R-win32\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Users\user\documents\visual studio 2010\Projects\ClassLibrary2\packages\SpecFlow.1.9.0;C:\Users\user\documents\visual studio 2010\Projects\ClassLibrary2\packages\NUnit.2.6.2;C:\Program Files\Java\jdk1.7.0_25\bin;G:\Softwares\Automation Files\casperjs-1.0.2\casperjs-1.0.2\batchbin;G:\Softwares\Automation Files\phantomjs-1.8.2-windows\phantomjs-1.8.2-windows;C:\Program Files\TortoiseSVN\bin;F:\Program Files\sikuli\libs;C:\Program Files\Java\jre6\\bin;C:\Program Files\Sikuli X\libs;C:\Program Files\Java\jre6\\bin;G:\Softwares\IEDriverServer_Win32_2.28.0;C:\Program Files\Maven\bin;C:\Program Files\Java\jdk1.7.0_25\bin;;C:\Program Files\Common Files\Ahead\Lib\;C:\Program Files\Common Files\Ahead\Lib\;G:\Softwares\eclipse-standard-kepler-R-win32\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="0.024" classname="Scenario: Set the eText preference in Work Space" name="Given I am on the Global Home page">
+  <testcase time="0.021" classname="Scenario: Set the eText preference in Work Space" name="Given I am on the Global Home page">
     <error message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c187d01409a5dc3b7f8251859150c8af0bcb&apos;, time: &apos;2013-04-09 10:39:28&apos;
 System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
@@ -134,7 +134,7 @@ Driver info: driver.version: InternetExplorerDriver
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:23827/status] to be available after 20005 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:41923/status] to be available after 20004 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:104)
 	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:163)
 	... 52 more
@@ -149,7 +149,7 @@ Caused by: java.util.concurrent.TimeoutException
 	... 54 more
 </error>
   </testcase>
-  <testcase time="0.025" classname="Scenario: Set the eText preference in Work Space" name="Scenario: Set the eText preference in Work Space">
+  <testcase time="0.023" classname="Scenario: Set the eText preference in Work Space" name="Scenario: Set the eText preference in Work Space">
     <error message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c187d01409a5dc3b7f8251859150c8af0bcb&apos;, time: &apos;2013-04-09 10:39:28&apos;
 System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
@@ -222,7 +222,7 @@ Driver info: driver.version: InternetExplorerDriver
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:23827/status] to be available after 20005 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:41923/status] to be available after 20004 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:104)
 	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:163)
 	... 52 more
@@ -237,16 +237,16 @@ Caused by: java.util.concurrent.TimeoutException
 	... 54 more
 </error>
   </testcase>
-  <testcase time="0.127" classname="Scenario: Set the eText preference in Work Space" name="When I enter in the MySpanishLabMaster from the Global Home page as HedWsInstructor">
+  <testcase time="0.128" classname="Scenario: Set the eText preference in Work Space" name="When I enter in the MySpanishLabMaster from the Global Home page as HedWsInstructor">
     <skipped/>
   </testcase>
-  <testcase time="0.127" classname="Scenario: Set the eText preference in Work Space" name="And I navigate to the Preferences tab">
+  <testcase time="0.129" classname="Scenario: Set the eText preference in Work Space" name="And I navigate to the Preferences tab">
     <skipped/>
   </testcase>
-  <testcase time="0.128" classname="Scenario: Set the eText preference in Work Space" name="Then I should be on the Preferences page">
+  <testcase time="0.13" classname="Scenario: Set the eText preference in Work Space" name="Then I should be on the Preferences page">
     <skipped/>
   </testcase>
-  <testcase time="0.136" classname="Scenario: Set the eText preference in Work Space" name="When I select LTI Tools sub tab">
+  <testcase time="0.137" classname="Scenario: Set the eText preference in Work Space" name="When I select LTI Tools sub tab">
     <skipped/>
     <system-out>@etextpref
 Feature: Set etext preferences
@@ -323,7 +323,7 @@ Feature: Set etext preferences
       	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
       	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
       	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-      Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:23827/status] to be available after 20005 ms
+      Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:41923/status] to be available after 20004 ms
       	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:104)
       	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:163)
       	... 52 more
@@ -344,13 +344,13 @@ Feature: Set etext preferences
     &amp;#27;[90mThen &amp;#27;[0m&amp;#27;[90mI should be on the Preferences page&amp;#27;[0m                                            &amp;#27;[90m# Set_etext_preferences_StepClass.preferencepagevalidatior()&amp;#27;[0m
 &amp;#27;[1A    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI </system-out>
   </testcase>
-  <testcase time="0.138" classname="Scenario: Set the eText preference in Work Space" name="And I set the eText in enable state">
+  <testcase time="0.157" classname="Scenario: Set the eText preference in Work Space" name="And I set the eText in enable state">
     <skipped/>
   </testcase>
-  <testcase time="0.148" classname="Scenario: Set the eText preference in Work Space" name="Then I should see the successfull message Preferences updated successfully">
+  <testcase time="0.157" classname="Scenario: Set the eText preference in Work Space" name="Then I should see the successfull message Preferences updated successfully">
     <skipped/>
   </testcase>
-  <testcase time="0.149" classname="Scenario: Set the eText preference in Work Space" name="Scenario: Set the eText preference in Work Space">
+  <testcase time="0.157" classname="Scenario: Set the eText preference in Work Space" name="Scenario: Set the eText preference in Work Space">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at Stories.Set_etext_preferences_StepClass.driverquit(Set_etext_preferences_StepClass.java:84)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
