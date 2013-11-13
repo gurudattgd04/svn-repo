@@ -3,6 +3,7 @@ package PegasusPages;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -69,14 +70,25 @@ public PreferencesMainUX ToolSelection()
 	        		String Status = Statuscol.getText();
 	        		if(Status.contains("Enabled"))
 	        		{
+	        			JavascriptExecutor js;
+	    	    		js = (JavascriptExecutor) iedriver;
+	    	    		Object bool = js.executeScript("var chkBox = document.getElementById('chkEnableTools');"  +
+	    	    			       "  if (chkBox.checked) {" +
+	    	    			       "  return true  ;" +
+	    	    			       "  }" +
+	    	    			       " else{"+ " return false;" +"}" );	
+	    	    		System.out.println(bool);
+	    	    		boolean checkbxstatus = iedriver.findElement(LTItool_checkbox).isEnabled();
+	    	    		System.out.println(checkbxstatus);
 	        			break;
 	        		}
 	        		else{
+	        			
 	        		iedriver.findElement(LTItool_checkbox).click();
-	        		break;
+	        		  		break;
 	        		}
 	        	}
-	        	
+	    		
 	        	
 	        }
 	        
@@ -89,8 +101,10 @@ public PreferencesMainUX ToolSelection()
 public void savepreferences()
 {
 	iedriver.findElement(SavePreference_btn).click();
-	
+
 
 }
+
+
 
 }

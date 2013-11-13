@@ -10,3 +10,4 @@ And Click on Settings Clicks
 And Access Apps link
 When instructor click on View installed apps button
 And clicks on Add New App button
+And Fill the External tool form with required data

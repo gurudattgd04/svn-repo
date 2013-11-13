@@ -9,22 +9,23 @@ public class PropertiesFileReader {
 	
 	private String URL;
 	Properties file = new Properties();
-	private void reader() throws FileNotFoundException, IOException
+	public PropertiesFileReader() throws FileNotFoundException, IOException
 	{
 		
 		file.load(new FileInputStream("Config.properties"));
-		URL = file.getProperty("canvasurl");
+		
 	}
 	
-	public String geturl() throws FileNotFoundException, IOException
+	public String geturl(String url) throws FileNotFoundException, IOException
 	{
-		reader();
+		//reader();
+		URL = file.getProperty(url);
 		return this.URL;
 	}
 	
 	public String getvalue(String value) throws FileNotFoundException, IOException
 	{
-		reader();
+		//reader();
 		return file.getProperty(value);
 		
 		

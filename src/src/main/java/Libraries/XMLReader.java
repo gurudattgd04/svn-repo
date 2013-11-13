@@ -20,7 +20,7 @@ public class XMLReader {
 	String pegasusnode = "CSUserdetails";
     String canvasnode = "canvasLogins";
     int itemnum = 0;
-	private void XMLRead() {
+	public XMLReader(String value) {
 		// TODO Auto-generated method stub
 		
 		//Point the file path to a object of File class
@@ -28,7 +28,8 @@ public class XMLReader {
 		try {
 			DocumentBuilder dBuilder =  DocumentBuilderFactory.newInstance().newDocumentBuilder();
 			Document doc = dBuilder.parse(filepath);
-		    NodeList nodelist = doc.getElementsByTagName(canvasnode);
+		    NodeList nodelist = doc.getElementsByTagName(value);
+		    nodelist.getLength();
 		    Node node = nodelist.item(0);
 			elements = (Element) node;
 		   // System.out.println(elements.getElementsByTagName("Firstname").item(itemnum).getTextContent());
@@ -43,42 +44,42 @@ public class XMLReader {
 		
 		public String username()
 		{
-			XMLRead();	
+			//XMLRead();	
 			username = elements.getElementsByTagName("username").item(itemnum).getTextContent();
 			return username;
 		}
 		
 		public String firstname()
 		{
-			XMLRead();
+			////XMLRead();
 			firstname = elements.getElementsByTagName("Firstname").item(itemnum).getTextContent();
 			return firstname;
 		}
 		
 		public String lastname()
 		{
-			XMLRead();
+			//XMLRead();
 			lastname = elements.getElementsByTagName("Lastname").item(itemnum).getTextContent();
 			return lastname;
 		}
 		
 		public String email()
 		{
-			XMLRead();
+			//XMLRead();
 			email = elements.getElementsByTagName("Email").item(itemnum).getTextContent();
 			return email;
 		}
 		
 		public String password()
 		{
-			XMLRead();
+			//XMLRead();
 			password = elements.getElementsByTagName("password").item(itemnum).getTextContent();
 			return password;
 		}
 		
 		public String Coursename()
 		{
-			XMLRead();
+			//XMLRead();
 			coursename = elements.getElementsByTagName("coursename").item(itemnum).getTextContent();
 			return coursename;
 		}

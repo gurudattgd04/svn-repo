@@ -26,7 +26,7 @@ public UserDashboard(WebDriver iedriver)
 
 public UserDashboard courseaccess()
 {
-	XMLReader CourseNameread = new XMLReader();
+	XMLReader CourseNameread = new XMLReader("canvasLogins");
 	Actions selectcouse = new Actions(iedriver);
 	WebElement course = iedriver.findElement(Courses);
 	WebElement courses_dropdown = iedriver.findElement(Courses_dropdwn);

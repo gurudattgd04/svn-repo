@@ -1,219 +1,52 @@
 -------------------------------------------------------------------------------
 Test set: Stories.Set_etext_preferences_RunnerClass
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 3, Skipped: 6, Time elapsed: 25.356 sec <<< FAILURE!
-Given I am on the Global Home page(Scenario: Set the eText preference in Work Space)  Time elapsed: 0.021 sec  <<< ERROR!
-org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Tests run: 8, Failures: 0, Errors: 2, Skipped: 6, Time elapsed: 35.465 sec <<< FAILURE!
+Given I am on the Global Home page(Scenario: Set the eText preference in Work Space)  Time elapsed: 0.016 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 553 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.32.0', revision: '6c40c187d01409a5dc3b7f8251859150c8af0bcb', time: '2013-04-09 10:39:28'
 System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
-Driver info: driver.version: InternetExplorerDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:201)
-	at org.openqa.selenium.ie.InternetExplorerDriver.setup(InternetExplorerDriver.java:105)
-	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:51)
-	at PegasusPages.frmlogin.<init>(frmlogin.java:28)
-	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:24)
+Session ID: be6f370d-0591-47c9-bfb3-a80741f0a647
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, browserName=internet explorer, nativeEvents=true, takesScreenshot=true, version=10}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+	at org.openqa.selenium.By$ById.findElement(By.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at PegasusPages.frmlogin.LoginMethod(frmlogin.java:35)
+	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:25)
 	at ?.Given I am on the Global Home page(Stories\Set the etext preferences.feature:5)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-Build info: version: '2.32.0', revision: '6c40c187d01409a5dc3b7f8251859150c8af0bcb', time: '2013-04-09 10:39:28'
-System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
-Driver info: driver.version: InternetExplorerDriver
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:165)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:62)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:201)
-	at org.openqa.selenium.ie.InternetExplorerDriver.setup(InternetExplorerDriver.java:105)
-	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:51)
-	at PegasusPages.frmlogin.<init>(frmlogin.java:28)
-	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:24)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:44)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:12)
-	at cucumber.runtime.Utils.invoke(Utils.java:40)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:268)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:45)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:40)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:83)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:82)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:41923/status] to be available after 20004 ms
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:104)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:163)
-	... 52 more
-Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
-	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:143)
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:79)
-	... 53 more
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
-	at java.util.concurrent.FutureTask.get(Unknown Source)
-	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
-	... 54 more
 
-Scenario: Set the eText preference in Work Space  Time elapsed: 0.023 sec  <<< ERROR!
-org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Scenario: Set the eText preference in Work Space  Time elapsed: 0.019 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 553 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.32.0', revision: '6c40c187d01409a5dc3b7f8251859150c8af0bcb', time: '2013-04-09 10:39:28'
 System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
-Driver info: driver.version: InternetExplorerDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:201)
-	at org.openqa.selenium.ie.InternetExplorerDriver.setup(InternetExplorerDriver.java:105)
-	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:51)
-	at PegasusPages.frmlogin.<init>(frmlogin.java:28)
-	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:24)
+Session ID: be6f370d-0591-47c9-bfb3-a80741f0a647
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, browserName=internet explorer, nativeEvents=true, takesScreenshot=true, version=10}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+	at org.openqa.selenium.By$ById.findElement(By.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at PegasusPages.frmlogin.LoginMethod(frmlogin.java:35)
+	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:25)
 	at ?.Given I am on the Global Home page(Stories\Set the etext preferences.feature:5)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-Build info: version: '2.32.0', revision: '6c40c187d01409a5dc3b7f8251859150c8af0bcb', time: '2013-04-09 10:39:28'
-System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
-Driver info: driver.version: InternetExplorerDriver
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:165)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:62)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:201)
-	at org.openqa.selenium.ie.InternetExplorerDriver.setup(InternetExplorerDriver.java:105)
-	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:51)
-	at PegasusPages.frmlogin.<init>(frmlogin.java:28)
-	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:24)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:44)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:12)
-	at cucumber.runtime.Utils.invoke(Utils.java:40)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:268)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:45)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:40)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:83)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:82)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:41923/status] to be available after 20004 ms
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:104)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:163)
-	... 52 more
-Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
-	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:143)
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:79)
-	... 53 more
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
-	at java.util.concurrent.FutureTask.get(Unknown Source)
-	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
-	... 54 more
-
-Scenario: Set the eText preference in Work Space  Time elapsed: 0.157 sec  <<< ERROR!
-java.lang.NullPointerException
-	at Stories.Set_etext_preferences_StepClass.driverquit(Set_etext_preferences_StepClass.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:44)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:12)
-	at cucumber.runtime.Utils.invoke(Utils.java:40)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
-	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:194)
-	at cucumber.runtime.Runtime.runHooks(Runtime.java:185)
-	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:179)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:38)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:83)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:82)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 

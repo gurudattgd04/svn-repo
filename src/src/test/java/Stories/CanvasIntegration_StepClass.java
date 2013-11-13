@@ -78,20 +78,25 @@ public void viewinstallappaccess()
 }
 
 @When("^clicks on Add New App button$")
-public void Addnewapp_access() throws FileNotFoundException, IOException
+public void Addnewapp_access()
 {
 	courses addnewapp = new courses(iedriver);
 	addnewapp.AddNewApps_LinkAccess();
+	
+}
+
+@When("^Fill the External tool form with required data$")
+public void Externaltool_formfill() throws FileNotFoundException, IOException
+{
 	Edit_External_Tool externaltools = new Edit_External_Tool(iedriver);
 	externaltools.ExternalToolsformfill();
 }
 
-
-/*@After
+@After
 public void shutdown()
 {
 	iedriver.close();
 	iedriver.quit();
-}*/
+}
 
 }

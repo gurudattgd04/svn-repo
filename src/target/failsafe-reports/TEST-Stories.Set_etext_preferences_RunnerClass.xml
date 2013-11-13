@@ -1,401 +1,232 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="1.039" errors="3" skipped="6" tests="9" name="Stories.Set_etext_preferences_RunnerClass">
+<testsuite failures="0" time="0.18" errors="2" skipped="6" tests="8" name="Stories.Set_etext_preferences_RunnerClass">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre7\bin"/>
-    <property name="java.vm.version" value="23.25-b01"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="US"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="JobCreatedforDemo"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="Service Pack 1"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\SVN\New folder (2)\trunk\src"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="JENKINS_HOME" value="C:\Users\user\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="46b70557f604e76e"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="BASEDIR" value="G:\Softwares\apache-tomcat-6.0.37-windows-x86\apache-tomcat-6.0.37"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\user\AppData\Local\Temp"/>
     <property name="java.runtime.version" value="1.7.0_25-b17"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre7\lib\endorsed"/>
-    <property name="os.arch" value="x86"/>
+    <property name="_RUNJDB" value="&quot;C:\Program Files\Java\jdk1.7.0_25\bin\jdb&quot;"/>
+    <property name="user.name" value="user"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CURRENT_DIR" value="G:\Softwares\apache-tomcat-6.0.37-windows-x86\apache-tomcat-6.0.37\bin"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="M2" value="C:\Program Files\Maven\bin"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_25\jre\bin"/>
+    <property name="ACTION" value="start"/>
+    <property name="=G:" value="G:\Softwares\apache-tomcat-6.0.37-windows-x86\apache-tomcat-6.0.37\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\user\AppData\Local"/>
+    <property name="java.version" value="1.7.0_25"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="user"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="2013-10-26_09-27-01"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="EXECUTABLE" value="G:\Softwares\apache-tomcat-6.0.37-windows-x86\apache-tomcat-6.0.37\bin\catalina.bat"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="JAVA_ENDORSED_DIRS" value="G:\Softwares\apache-tomcat-6.0.37-windows-x86\apache-tomcat-6.0.37\endorsed"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="=::" value="::\"/>
+    <property name="JRE_HOME" value="C:\Program Files\Java\jdk1.7.0_25"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_25\jre"/>
+    <property name="LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="6.1"/>
+    <property name="CATALINA_HOME" value="G:\Softwares\apache-tomcat-6.0.37-windows-x86\apache-tomcat-6.0.37"/>
+    <property name="TMP" value="C:\Users\user\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="23.25-b01"/>
+    <property name="JAVA_OPTS" value=" -Djava.util.logging.config.file=&quot;G:\Softwares\apache-tomcat-6.0.37-windows-x86\apache-tomcat-6.0.37\conf\logging.properties&quot; -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="protector_attach" value="true"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_25"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\user"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="USER-PC"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-JobCreatedforDemo-2"/>
+    <property name="JENKINS_SERVER_COOKIE" value="46b70557f604e76e"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\user"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Maven/bin;C:\Program Files\Java\jdk1.7.0_25/bin;C:\Program Files\Java\jdk1.7.0_25/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Users\user\documents\visual studio 2010\Projects\ClassLibrary2\packages\SpecFlow.1.9.0;C:\Users\user\documents\visual studio 2010\Projects\ClassLibrary2\packages\NUnit.2.6.2;C:\Program Files\Java\jdk1.7.0_25\bin;G:\Softwares\Automation Files\casperjs-1.0.2\casperjs-1.0.2\batchbin;G:\Softwares\Automation Files\phantomjs-1.8.2-windows\phantomjs-1.8.2-windows;C:\Program Files\TortoiseSVN\bin;F:\Program Files\sikuli\libs;C:\Program Files\Java\jre6\\bin;C:\Program Files\Sikuli X\libs;C:\Program Files\Java\jre6\\bin;G:\Softwares\IEDriverServer_Win32_2.28.0;C:\Program Files\Maven\bin;C:\Program Files\Java\jdk1.7.0_25\bin;;C:\Program Files\Common Files\Ahead\Lib\;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\user\AppData\Roaming"/>
+    <property name="SIKULI_HOME" value="C:\Program Files\Sikuli X\"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files\Maven"/>
+    <property name="java.class.path" value="C:\Users\user\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-agent-1.3.jar;C:\Program Files\Maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="sun.java.command" value="org.jvnet.hudson.maven3.agent.Maven3Main C:\Program Files\Maven G:\Softwares\apache-tomcat-6.0.37-windows-x86\apache-tomcat-6.0.37\webapps\jenkins\WEB-INF\lib\remoting-2.28.jar C:\Users\user\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-1.3.jar 26922"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.7.0_25/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Users\user\documents\visual studio 2010\Projects\ClassLibrary2\packages\SpecFlow.1.9.0;C:\Users\user\documents\visual studio 2010\Projects\ClassLibrary2\packages\NUnit.2.6.2;C:\Program Files\Java\jdk1.7.0_25\bin;G:\Softwares\Automation Files\casperjs-1.0.2\casperjs-1.0.2\batchbin;G:\Softwares\Automation Files\phantomjs-1.8.2-windows\phantomjs-1.8.2-windows;C:\Program Files\TortoiseSVN\bin;F:\Program Files\sikuli\libs;C:\Program Files\Java\jre6\\bin;C:\Program Files\Sikuli X\libs;C:\Program Files\Java\jre6\\bin;G:\Softwares\IEDriverServer_Win32_2.28.0;C:\Program Files\Maven\bin;C:\Program Files\Java\jdk1.7.0_25\bin;;C:\Program Files\Common Files\Ahead\Lib\"/>
+    <property name="JBOSS_HOME" value="C:\jboss-eap-6.1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.7.0_25/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 37 Stepping 5, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="CATALINA_BASE" value="G:\Softwares\apache-tomcat-6.0.37-windows-x86\apache-tomcat-6.0.37"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Program Files\Maven"/>
     <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="TITLE" value="Tomcat"/>
+    <property name="HUDSON_HOME" value="C:\Users\user\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files\Maven/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/jenkins/job/JobCreatedforDemo/2/"/>
+    <property name="_EXECJAVA" value="start &quot;Tomcat&quot; &quot;C:\Program Files\Java\jdk1.7.0_25\bin\java&quot;"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="x86"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="LOGGING_CONFIG" value="-Djava.util.logging.config.file=&quot;G:\Softwares\apache-tomcat-6.0.37-windows-x86\apache-tomcat-6.0.37\conf\logging.properties&quot;"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\SVN\New folder (2)\trunk\src"/>
+    <property name="JOB_URL" value="http://localhost:8080/jenkins/job/JobCreatedforDemo/"/>
+    <property name="CATALINA_TMPDIR" value="G:\Softwares\apache-tomcat-6.0.37-windows-x86\apache-tomcat-6.0.37\temp"/>
+    <property name="_RUNJAVA" value="&quot;C:\Program Files\Java\jdk1.7.0_25\bin\java&quot;"/>
+    <property name="LOGONSERVER" value="\\USER-PC"/>
+    <property name="USERDOMAIN" value="user-PC"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="E:\Pegasus Autamation\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8443232511333850416.tmp"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Users\user\documents\visual studio 2010\Projects\ClassLibrary2\packages\SpecFlow.1.9.0;C:\Users\user\documents\visual studio 2010\Projects\ClassLibrary2\packages\NUnit.2.6.2;C:\Program Files\Java\jdk1.7.0_25\bin;G:\Softwares\Automation Files\casperjs-1.0.2\casperjs-1.0.2\batchbin;G:\Softwares\Automation Files\phantomjs-1.8.2-windows\phantomjs-1.8.2-windows;C:\Program Files\TortoiseSVN\bin;F:\Program Files\sikuli\libs;C:\Program Files\Java\jre6\\bin;C:\Program Files\Sikuli X\libs;C:\Program Files\Java\jre6\\bin;G:\Softwares\IEDriverServer_Win32_2.28.0;C:\Program Files\Maven\bin;C:\Program Files\Java\jdk1.7.0_25\bin;;C:\Program Files\Common Files\Ahead\Lib\;C:\Program Files\Common Files\Ahead\Lib\;G:\Softwares\eclipse-standard-kepler-R-win32\eclipse;;."/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="51.0"/>
-    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
-    <property name="os.version" value="6.1"/>
-    <property name="user.home" value="C:\Users\user"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.7"/>
+    <property name="MAVEN_HOME" value="C:\Program Files\Maven"/>
+    <property name="VS100COMNTOOLS" value="F:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="PROCESSOR_REVISION" value="2505"/>
+    <property name="windir" value="C:\Windows"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="user"/>
-    <property name="java.class.path" value="/G:/Softwares/eclipse-standard-kepler-R-win32/eclipse/configuration/org.eclipse.osgi/bundles/267/1/.cp/jars/plexus-classworlds-2.4.jar"/>
-    <property name="java.vm.specification.version" value="1.7"/>
-    <property name="sun.arch.data.model" value="32"/>
-    <property name="java.home" value="C:\Program Files\Java\jre7"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B verify"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="1.7.0_25"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\SVN\New folder (2)\trunk\src\EMBEDDED"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="maven.bootclasspath" value="/G:/Softwares/eclipse-standard-kepler-R-win32/eclipse/configuration/org.eclipse.osgi/bundles/267/1/.cp/jars/plexus-classworlds-2.4.jar"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\user\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-1.3.jar"/>
+    <property name="WORKSPACE" value="C:\Automation\eCollege"/>
+    <property name="MAINCLASS" value="org.apache.catalina.startup.Bootstrap"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
   </properties>
-  <testcase time="0.021" classname="Scenario: Set the eText preference in Work Space" name="Given I am on the Global Home page">
-    <error message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+  <testcase time="0.016" classname="Scenario: Set the eText preference in Work Space" name="Given I am on the Global Home page">
+    <error message="Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 553 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c187d01409a5dc3b7f8251859150c8af0bcb&apos;, time: &apos;2013-04-09 10:39:28&apos;
 System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
-Driver info: driver.version: InternetExplorerDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Session ID: be6f370d-0591-47c9-bfb3-a80741f0a647
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, browserName=internet explorer, nativeEvents=true, takesScreenshot=true, version=10}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 553 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c187d01409a5dc3b7f8251859150c8af0bcb&apos;, time: &apos;2013-04-09 10:39:28&apos;
 System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
-Driver info: driver.version: InternetExplorerDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:201)
-	at org.openqa.selenium.ie.InternetExplorerDriver.setup(InternetExplorerDriver.java:105)
-	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:51)
-	at PegasusPages.frmlogin.&lt;init&gt;(frmlogin.java:28)
-	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:24)
+Session ID: be6f370d-0591-47c9-bfb3-a80741f0a647
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, browserName=internet explorer, nativeEvents=true, takesScreenshot=true, version=10}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+	at org.openqa.selenium.By$ById.findElement(By.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at PegasusPages.frmlogin.LoginMethod(frmlogin.java:35)
+	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:25)
 	at ✽.Given I am on the Global Home page(Stories\Set the etext preferences.feature:5)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c187d01409a5dc3b7f8251859150c8af0bcb&apos;, time: &apos;2013-04-09 10:39:28&apos;
-System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
-Driver info: driver.version: InternetExplorerDriver
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:165)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:62)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:201)
-	at org.openqa.selenium.ie.InternetExplorerDriver.setup(InternetExplorerDriver.java:105)
-	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:51)
-	at PegasusPages.frmlogin.&lt;init&gt;(frmlogin.java:28)
-	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:24)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:44)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:12)
-	at cucumber.runtime.Utils.invoke(Utils.java:40)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:268)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:45)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:40)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:83)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:82)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:41923/status] to be available after 20004 ms
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:104)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:163)
-	... 52 more
-Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
-	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:143)
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:79)
-	... 53 more
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
-	at java.util.concurrent.FutureTask.get(Unknown Source)
-	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
-	... 54 more
 </error>
+    <system-err>Started InternetExplorerDriver server (32-bit)
+2.28.0.0
+Listening on port 30412
+log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager).
+log4j:WARN Please initialize the log4j system properly.
+</system-err>
   </testcase>
-  <testcase time="0.023" classname="Scenario: Set the eText preference in Work Space" name="Scenario: Set the eText preference in Work Space">
-    <error message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+  <testcase time="0.019" classname="Scenario: Set the eText preference in Work Space" name="Scenario: Set the eText preference in Work Space">
+    <error message="Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 553 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c187d01409a5dc3b7f8251859150c8af0bcb&apos;, time: &apos;2013-04-09 10:39:28&apos;
 System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
-Driver info: driver.version: InternetExplorerDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Session ID: be6f370d-0591-47c9-bfb3-a80741f0a647
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, browserName=internet explorer, nativeEvents=true, takesScreenshot=true, version=10}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 553 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c187d01409a5dc3b7f8251859150c8af0bcb&apos;, time: &apos;2013-04-09 10:39:28&apos;
 System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
-Driver info: driver.version: InternetExplorerDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:201)
-	at org.openqa.selenium.ie.InternetExplorerDriver.setup(InternetExplorerDriver.java:105)
-	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:51)
-	at PegasusPages.frmlogin.&lt;init&gt;(frmlogin.java:28)
-	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:24)
+Session ID: be6f370d-0591-47c9-bfb3-a80741f0a647
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, browserName=internet explorer, nativeEvents=true, takesScreenshot=true, version=10}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+	at org.openqa.selenium.By$ById.findElement(By.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at PegasusPages.frmlogin.LoginMethod(frmlogin.java:35)
+	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:25)
 	at ✽.Given I am on the Global Home page(Stories\Set the etext preferences.feature:5)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c187d01409a5dc3b7f8251859150c8af0bcb&apos;, time: &apos;2013-04-09 10:39:28&apos;
-System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
-Driver info: driver.version: InternetExplorerDriver
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:165)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:62)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:201)
-	at org.openqa.selenium.ie.InternetExplorerDriver.setup(InternetExplorerDriver.java:105)
-	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:51)
-	at PegasusPages.frmlogin.&lt;init&gt;(frmlogin.java:28)
-	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:24)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:44)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:12)
-	at cucumber.runtime.Utils.invoke(Utils.java:40)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:268)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:45)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:40)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:83)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:82)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:41923/status] to be available after 20004 ms
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:104)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:163)
-	... 52 more
-Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
-	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:143)
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:79)
-	... 53 more
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
-	at java.util.concurrent.FutureTask.get(Unknown Source)
-	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
-	... 54 more
 </error>
   </testcase>
-  <testcase time="0.128" classname="Scenario: Set the eText preference in Work Space" name="When I enter in the MySpanishLabMaster from the Global Home page as HedWsInstructor">
+  <testcase time="0.019" classname="Scenario: Set the eText preference in Work Space" name="When I enter in the MySpanishLabMaster from the Global Home page as HedWsInstructor">
     <skipped/>
   </testcase>
-  <testcase time="0.129" classname="Scenario: Set the eText preference in Work Space" name="And I navigate to the Preferences tab">
+  <testcase time="0.021" classname="Scenario: Set the eText preference in Work Space" name="And I navigate to the Preferences tab">
     <skipped/>
   </testcase>
-  <testcase time="0.13" classname="Scenario: Set the eText preference in Work Space" name="Then I should be on the Preferences page">
+  <testcase time="0.023" classname="Scenario: Set the eText preference in Work Space" name="Then I should be on the Preferences page">
     <skipped/>
   </testcase>
-  <testcase time="0.137" classname="Scenario: Set the eText preference in Work Space" name="When I select LTI Tools sub tab">
-    <skipped/>
-    <system-out>@etextpref
-Feature: Set etext preferences
-
-  Scenario: Set the eText preference in Work Space                                      &amp;#27;[90m# Stories\Set the etext preferences.feature:4&amp;#27;[0m
-    &amp;#27;[90mGiven &amp;#27;[0m&amp;#27;[90mI am on the Global Home page&amp;#27;[0m                                                  &amp;#27;[90m# Set_etext_preferences_StepClass.homepageaccess()&amp;#27;[0m
-&amp;#27;[1A    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mI am on the Global Home page&amp;#27;[0m                                                  &amp;#27;[90m# Set_etext_preferences_StepClass.homepageaccess()&amp;#27;[0m
-      &amp;#27;[31morg.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-      Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c187d01409a5dc3b7f8251859150c8af0bcb&apos;, time: &apos;2013-04-09 10:39:28&apos;
-      System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
-      Driver info: driver.version: InternetExplorerDriver
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:201)
-      	at org.openqa.selenium.ie.InternetExplorerDriver.setup(InternetExplorerDriver.java:105)
-      	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:51)
-      	at PegasusPages.frmlogin.&lt;init&gt;(frmlogin.java:28)
-      	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:24)
-      	at ?.Given I am on the Global Home page(Stories\Set the etext preferences.feature:5)
-      Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-      Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c187d01409a5dc3b7f8251859150c8af0bcb&apos;, time: &apos;2013-04-09 10:39:28&apos;
-      System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
-      Driver info: driver.version: InternetExplorerDriver
-      	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:165)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:62)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
-      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:201)
-      	at org.openqa.selenium.ie.InternetExplorerDriver.setup(InternetExplorerDriver.java:105)
-      	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:51)
-      	at PegasusPages.frmlogin.&lt;init&gt;(frmlogin.java:28)
-      	at Stories.Set_etext_preferences_StepClass.homepageaccess(Set_etext_preferences_StepClass.java:24)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-      	at java.lang.reflect.Method.invoke(Unknown Source)
-      	at cucumber.runtime.Utils$1.call(Utils.java:44)
-      	at cucumber.runtime.Timeout.timeout(Timeout.java:12)
-      	at cucumber.runtime.Utils.invoke(Utils.java:40)
-      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)
-      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)
-      	at cucumber.runtime.Runtime.runStep(Runtime.java:268)
-      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:45)
-      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:40)
-      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
-      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:83)
-      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)
-      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-      	at cucumber.api.junit.Cucumber.run(Cucumber.java:82)
-      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-      	at java.lang.reflect.Method.invoke(Unknown Source)
-      	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-      	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-      	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-      Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:41923/status] to be available after 20004 ms
-      	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:104)
-      	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:163)
-      	... 52 more
-      Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
-      	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:143)
-      	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:79)
-      	... 53 more
-      Caused by: java.util.concurrent.TimeoutException
-      	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
-      	at java.util.concurrent.FutureTask.get(Unknown Source)
-      	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
-      	... 54 more
-      &amp;#27;[0m
-    &amp;#27;[90mWhen &amp;#27;[0m&amp;#27;[90mI enter in the MySpanishLabMaster from the Global Home page as HedWsInstructor&amp;#27;[0m &amp;#27;[90m# Set_etext_preferences_StepClass.courseaccess()&amp;#27;[0m
-&amp;#27;[1A    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI enter in the MySpanishLabMaster from the Global Home page as HedWsInstructor&amp;#27;[0m &amp;#27;[90m# Set_etext_preferences_StepClass.courseaccess()&amp;#27;[0m
-    &amp;#27;[90mAnd &amp;#27;[0m&amp;#27;[90mI navigate to the Preferences tab&amp;#27;[0m                                               &amp;#27;[90m# Set_etext_preferences_StepClass.preferencetabaccess()&amp;#27;[0m
-&amp;#27;[1A    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI navigate to the Preferences tab&amp;#27;[0m                                               &amp;#27;[90m# Set_etext_preferences_StepClass.preferencetabaccess()&amp;#27;[0m
-    &amp;#27;[90mThen &amp;#27;[0m&amp;#27;[90mI should be on the Preferences page&amp;#27;[0m                                            &amp;#27;[90m# Set_etext_preferences_StepClass.preferencepagevalidatior()&amp;#27;[0m
-&amp;#27;[1A    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI </system-out>
-  </testcase>
-  <testcase time="0.157" classname="Scenario: Set the eText preference in Work Space" name="And I set the eText in enable state">
+  <testcase time="0.026" classname="Scenario: Set the eText preference in Work Space" name="When I select LTI Tools sub tab">
     <skipped/>
   </testcase>
-  <testcase time="0.157" classname="Scenario: Set the eText preference in Work Space" name="Then I should see the successfull message Preferences updated successfully">
+  <testcase time="0.027" classname="Scenario: Set the eText preference in Work Space" name="And I set the eText in enable state">
     <skipped/>
   </testcase>
-  <testcase time="0.157" classname="Scenario: Set the eText preference in Work Space" name="Scenario: Set the eText preference in Work Space">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at Stories.Set_etext_preferences_StepClass.driverquit(Set_etext_preferences_StepClass.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:44)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:12)
-	at cucumber.runtime.Utils.invoke(Utils.java:40)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
-	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:194)
-	at cucumber.runtime.Runtime.runHooks(Runtime.java:185)
-	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:179)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:38)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:83)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:82)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</error>
+  <testcase time="0.029" classname="Scenario: Set the eText preference in Work Space" name="Then I should see the successfull message Preferences updated successfully">
+    <skipped/>
   </testcase>
 </testsuite>

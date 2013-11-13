@@ -20,7 +20,7 @@ public WebDriver iedriver;
 private By Email = By.id("pseudonym_session_unique_id");
 private By password = By.id("pseudonym_session_password");
 private By Login_btn = By.xpath("//button[text()='Log In']");
-private XMLReader userdata = new XMLReader();
+private XMLReader userdata = new XMLReader("canvasLogins");
 
 
 public login(WebDriver iedriver)
@@ -39,7 +39,7 @@ this.iedriver = new InternetExplorerDriver();
 public WebDriver usernameentry() throws FileNotFoundException, IOException
 {
 	PropertiesFileReader fileread = new PropertiesFileReader();
-    iedriver.get(fileread.geturl());	
+    iedriver.get(fileread.geturl("canvasurl"));	
 	iedriver.findElement(Email).sendKeys(userdata.username());
 	return iedriver;
 }
