@@ -11,3 +11,12 @@ And Access Apps link
 When instructor click on View installed apps button
 And clicks on Add New App button
 And Fill the External tool form with required data
+
+@Scenario1
+Scenario: Course creation by canvas teacher
+Given user is on the global home page
+When user click on Start a new course button
+Then Start a new Course light box should display
+When user enters course name
+And Click on Create course button
+Then Course should get created successfully

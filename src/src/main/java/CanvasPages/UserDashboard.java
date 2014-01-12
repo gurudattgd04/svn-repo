@@ -7,8 +7,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import static org.junit.Assert.*;
 
 import Libraries.XMLReader;
+import PegasusPages.ActionDriver;
 
 public class UserDashboard {
 	
@@ -18,6 +20,8 @@ private By Course_name = By.id("course_name");
 private By CreateCourse_btn = By.xpath("//button[text()='Create course']");
 private By Courses = By.className("menu-item-title");
 private By Courses_dropdwn = By.className("menu-item-drop");
+private By Start_New_Course_header = By.cssSelector("div[class='ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix']>span[id='ui-id-1']");
+
 
 public UserDashboard(WebDriver iedriver)
 {
@@ -50,6 +54,25 @@ public UserDashboard courseaccess()
 		}
 	
 	
+	return this;
+}
+
+
+public UserDashboard CourseCreation()
+{
+    ActionDriver wait = new ActionDriver(iedriver);
+    wait.explicitwait(Start_newCourse_btn);
+	iedriver.findElement(Start_newCourse_btn).click();
+	return this;
+}
+
+public UserDashboard CourseCreationlightbox()
+{
+	ActionDriver wait = new ActionDriver(iedriver);
+	wait.explicitwait(Start_New_Course_header);
+	
+	String startnewCourse = iedriver.findElement(Start_New_Course_header).getText();
+	assertEquals("Start a New Course", startnewCourse);
 	return this;
 }
 

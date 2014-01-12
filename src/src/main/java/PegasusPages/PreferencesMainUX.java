@@ -76,8 +76,14 @@ public PreferencesMainUX ToolSelection()
 	    	    			       "  if (chkBox.checked) {" +
 	    	    			       "  return true  ;" +
 	    	    			       "  }" +
-	    	    			       " else{"+ " return false;" +"}" );	
-	    	    		System.out.println(bool);
+	    	    			       " else{"+ " return false;" +"}" );
+	    	    		
+	    	    		boolean checkboxStatus = (Boolean) bool;
+	    	    		if(checkboxStatus)
+	    	    		{
+	    	    			System.out.println(checkboxStatus);	
+	    	    		}
+	    	    		
 	    	    		boolean checkbxstatus = iedriver.findElement(LTItool_checkbox).isEnabled();
 	    	    		System.out.println(checkbxstatus);
 	        			break;
